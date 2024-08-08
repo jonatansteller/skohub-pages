@@ -5,7 +5,7 @@ This is an example repository (formerly named `skohub-docker-vocabs`) to show ho
 Every time a change is made to a vocabulary a GitHub-workflow-action is triggered to publish the most recent vocabulary to the `gh-pages`-branch, which is used by GitHub pages.
 It spins up a Docker container made from [SkoHub Vocabs](https://github.com/hbz/skohub-vocabs).
 
-## Usage
+## Usage 
 
 If you want to reuse this repo and have your vocabulary automatically pushed und published via GitHub-Pages, follow these steps:
 
