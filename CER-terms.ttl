@@ -1,0 +1,2529 @@
+PREFIX : <https://lod.academy/cer/vocab/terms#>
+PREFIX cer: <https://lod.academy/cer/vocab/terms#>  
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+PREFIX dct: <http://purl.org/dc/terms/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+cer:
+   a skos:ConceptScheme ;
+   dct:title "Controlled vocabulary for semantic modelling of communication and knowledge transfer in historical letters (c. 1800)"@en ;
+   dct:publisher "Akademie der Wissenschaften und der Literatur | Mainz"@de;
+   dct:creator "Aline Deicke, Akademie der Wissenschaften und der Literatur | Mainz"@de, "Laura Fath, Johannes-Gutenberg-Universität | Mainz"@de, "Clara Seibold, Akademie der Wissenschaften und der Literatur | Mainz"@de, "Jochen Strobel, Johannes-Gutenberg-Universität | Mainz"@de, "Elena Suárez Cronauer, Akademie der Wissenschaften und der Literatur | Mainz"@de ;
+   dct:license <http://creativecommons.org/licenses/by/3.0/>;
+   skos:definition "This controlled vocabulary offers a structured set of terms for the semantic modelling of communication and knowledge transfer in historical letters from around 1800. It has been developed as part of the 'Correspondences of Early Romanticism' project."@en;
+   owl:versionInfo "2024-08-01"^^xsd:date.
+
+
+
+
+:I0001
+   a skos:Concept ;
+   skos:prefLabel "übersetzen"@de;
+.
+
+:I0002
+   a skos:Concept ;
+   skos:prefLabel "erbitten"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I0003
+   a skos:Concept ;
+   skos:prefLabel "redigieren"@de;
+.
+
+:I0004
+   a skos:Concept ;
+   skos:prefLabel "sich freuen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I0005
+   a skos:Concept ;
+   skos:prefLabel "vorschlagen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I0006
+   a skos:Concept ;
+   skos:prefLabel "ankündigen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I0007
+   a skos:Concept ;
+   skos:prefLabel "erhoffen"@de;
+.
+
+:I0008
+   a skos:Concept ;
+   skos:prefLabel "wünschen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I0009
+   a skos:Concept ;
+   skos:prefLabel "grüßen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00010
+   a skos:Concept ;
+   skos:prefLabel "grüßen lassen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00011
+   a skos:Concept ;
+   skos:prefLabel "danken"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00012
+   a skos:Concept ;
+   skos:prefLabel "danken lassen"@de;
+.
+
+:I00013
+   a skos:Concept ;
+   skos:prefLabel "positiv bewerten"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00014
+   a skos:Concept ;
+   skos:prefLabel "anregen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00015
+   a skos:Concept ;
+   skos:prefLabel "gestehen"@de;
+.
+
+:I00016
+   a skos:Concept ;
+   skos:prefLabel "vermitteln"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00017
+   a skos:Concept ;
+   skos:prefLabel "verspotten"@de;
+.
+
+:I00018
+   a skos:Concept ;
+   skos:prefLabel "wertschätzen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00019
+   a skos:Concept ;
+   skos:prefLabel "planen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00020
+   a skos:Concept ;
+   skos:prefLabel "negativ bewerten"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00021
+   a skos:Concept ;
+   skos:prefLabel "betrügen"@de;
+.
+
+:I00022
+   a skos:Concept ;
+   skos:prefLabel "charakterisieren"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00023
+   a skos:Concept ;
+   skos:prefLabel "sich entschuldigen"@de;
+.
+
+:I00024
+   a skos:Concept ;
+   skos:prefLabel "senden lassen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00025
+   a skos:Concept ;
+   skos:prefLabel "senden"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00026
+   a skos:Concept ;
+   skos:prefLabel "empfangen"@de;
+.
+
+:I00027
+   a skos:Concept ;
+   skos:prefLabel "antworten"@de;
+.
+
+:I00028
+   a skos:Concept ;
+   skos:prefLabel "tadeln"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00029
+   a skos:Concept ;
+   skos:prefLabel "geben lassen"@de;
+.
+
+:I00030
+   a skos:Concept ;
+   skos:prefLabel "geben"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00031
+   a skos:Concept ;
+   skos:prefLabel "bekräftigen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00032
+   a skos:Concept ;
+   skos:prefLabel "erinnern"@de;
+.
+
+:I00033
+   a skos:Concept ;
+   skos:prefLabel "aufschieben"@de;
+.
+
+:I00034
+   a skos:Concept ;
+   skos:prefLabel "beauftragen"@de;
+.
+
+:I00035
+   a skos:Concept ;
+   skos:prefLabel "vermuten"@de;
+.
+
+:I00036
+   a skos:Concept ;
+   skos:prefLabel "bewerben"@de;
+.
+
+:I00037
+   a skos:Concept ;
+   skos:prefLabel "interessiert sein"@de;
+.
+
+:I00038
+   a skos:Concept ;
+   skos:prefLabel "beenden"@de;
+.
+
+:I00039
+   a skos:Concept ;
+   skos:prefLabel "erfragen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00040
+   a skos:Concept ;
+   skos:prefLabel "sich erkundigen"@de;
+.
+
+:I00041
+   a skos:Concept ;
+   skos:prefLabel "erklären"@de;
+.
+
+:I00042
+   a skos:Concept ;
+   skos:prefLabel "übertragen"@de;
+.
+
+:I00043
+   a skos:Concept ;
+   skos:prefLabel "besorgt sein"@de;
+.
+
+:I00044
+   a skos:Concept ;
+   skos:prefLabel "fordern"@de;
+.
+
+:I00045
+   a skos:Concept ;
+   skos:prefLabel "beklagen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00046
+   a skos:Concept ;
+   skos:prefLabel "erfragen lassen"@de;
+.
+
+:I00047
+   a skos:Concept ;
+   skos:prefLabel "einladen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00048
+   a skos:Concept ;
+   skos:prefLabel "anbieten"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+
+.
+
+:I00049
+   a skos:Concept ;
+   skos:prefLabel "prognostizieren"@de;
+.
+
+:I00050
+   a skos:Concept ;
+   skos:prefLabel "überzeugen lassen"@de;
+.
+
+:I00051
+   a skos:Concept ;
+   skos:prefLabel "überzeugen"@de;
+.
+
+:I00052
+   a skos:Concept ;
+   skos:prefLabel "vermitteln lassen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00053
+   a skos:Concept ;
+   skos:prefLabel "schreiben"@de;
+.
+
+:I00054
+   a skos:Concept ;
+   skos:prefLabel "loben"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00055
+   a skos:Concept ;
+   skos:prefLabel "abbrechen"@de;
+.
+
+:I00056
+   a skos:Concept ;
+   skos:prefLabel "annehmen"@de;
+.
+
+:I00057
+   a skos:Concept ;
+   skos:prefLabel "mitteilen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00058
+   a skos:Concept ;
+   skos:prefLabel "erläutern"@de;
+.
+
+:I00059
+   a skos:Concept ;
+   skos:prefLabel "empfehlen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00060
+   a skos:Concept ;
+   skos:prefLabel "beglückwünschen"@de;
+.
+
+:I00061
+   a skos:Concept ;
+   skos:prefLabel "beilegen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00062
+   a skos:Concept ;
+   skos:prefLabel "verhandeln"@de;
+.
+
+:I00063
+   a skos:Concept ;
+   skos:prefLabel "vorlesen"@de;
+.
+
+:I00064
+   a skos:Concept ;
+   skos:prefLabel "auffordern"@de;
+.
+
+:I00065
+   a skos:Concept ;
+   skos:prefLabel "anspielen"@de;
+.
+
+:I00066
+   a skos:Concept ;
+   skos:prefLabel "zitieren"@de;
+.
+
+:I00067
+   a skos:Concept ;
+   skos:prefLabel "herausgeben"@de;
+.
+
+:I00068
+   a skos:Concept ;
+   skos:prefLabel "verglichen werden"@de;
+.
+
+:I00069
+   a skos:Concept ;
+   skos:prefLabel "ablehnen"@de;
+.
+
+:I00070
+   a skos:Concept ;
+   skos:prefLabel "erwarten"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:I00071
+   a skos:Concept ;
+   skos:prefLabel "zustimmen"@de;
+.
+
+:I00072
+   a skos:Concept ;
+   skos:prefLabel "ausdrücken"@de;
+.
+
+:I00073
+   a skos:Concept ;
+   skos:prefLabel "begeistert sein"@de;
+.
+
+:I00074
+   a skos:Concept ;
+   skos:prefLabel "zusichern"@de;
+.
+
+:I00075
+   a skos:Concept ;
+   skos:prefLabel "erwägen"@de;
+.
+
+:I00076
+   a skos:Concept ;
+   skos:prefLabel "diskutieren"@de;
+.
+
+:I00077
+   a skos:Concept ;
+   skos:prefLabel "kommentieren"@de;
+.
+
+:I00078
+   a skos:Concept ;
+   skos:prefLabel "bewerten"@de;
+.
+
+:I00079
+   a skos:Concept ;
+   skos:prefLabel "verzichten"@de;
+.
+
+:I00080
+   a skos:Concept ;
+   skos:prefLabel "ankündigen lassen"@de;
+.
+
+:I00081
+   a skos:Concept ;
+   skos:prefLabel "verärgert sein"@de;
+.
+
+:I00082
+   a skos:Concept ;
+   skos:prefLabel "erinnern lassen"@de;
+.
+
+:I00083
+   a skos:Concept ;
+   skos:prefLabel "erbitten lassen"@de;
+.
+
+:I00084
+   a skos:Concept ;
+   skos:prefLabel "aufrechterhalten"@de;
+.
+
+:I00085
+   a skos:Concept ;
+   skos:prefLabel "warnen"@de;
+.
+
+:I00086
+   a skos:Concept ;
+   skos:prefLabel "ermutigen"@de;
+.
+
+:I00087
+   a skos:Concept ;
+   skos:prefLabel "beraten"@de;
+.
+
+:I00088
+   a skos:Concept ;
+   skos:prefLabel "betrauern"@de;
+.
+
+:I00089
+   a skos:Concept ;
+   skos:prefLabel "mahnen"@de;
+.
+
+:I00090
+   a skos:Concept ;
+   skos:prefLabel "bemitleiden"@de;
+.
+
+:I00091
+   a skos:Concept ;
+   skos:prefLabel "publizieren"@de;
+.
+
+:I00092
+   a skos:Concept ;
+   skos:prefLabel "regeln"@de;
+.
+
+:I00093
+   a skos:Concept ;
+   skos:prefLabel "beruhigen"@de;
+.
+
+:I00094
+   a skos:Concept ;
+   skos:prefLabel "intrigieren"@de;
+.
+
+:I00095
+   a skos:Concept ;
+   skos:prefLabel "verteidigen"@de;
+.
+
+:I00096
+   a skos:Concept ;
+   skos:prefLabel "abraten"@de;
+.
+
+:I00097
+   a skos:Concept ;
+   skos:prefLabel "unterhalten"@de;
+.
+
+:I00098
+   a skos:Concept ;
+   skos:prefLabel "bezahlen"@de;
+.
+
+:I00099
+   a skos:Concept ;
+   skos:prefLabel "sich trennen"@de;
+.
+
+:I000100
+   a skos:Concept ;
+   skos:prefLabel "verklagen"@de;
+.
+
+:I000101
+   a skos:Concept ;
+   skos:prefLabel "bezahlen lassen"@de;
+.
+
+:I000102
+   a skos:Concept ;
+   skos:prefLabel "kündigen"@de;
+.
+
+:I000103
+   a skos:Concept ;
+   skos:prefLabel "bereuen"@de;
+.
+
+:I000104
+   a skos:Concept ;
+   skos:prefLabel "unterlassen"@de;
+.
+
+:I000105
+   a skos:Concept ;
+   skos:prefLabel "zurückweisen"@de;
+.
+
+:I000106
+   a skos:Concept ;
+   skos:prefLabel "übergeben"@de;
+.
+
+:I000107
+   a skos:Concept ;
+   skos:prefLabel "wütend sein"@de;
+.
+
+:I000108
+   a skos:Concept ;
+   skos:prefLabel "bezweifeln"@de;
+.
+
+:I000109
+   a skos:Concept ;
+   skos:prefLabel "zurückgeben"@de;
+.
+
+:I000110
+   a skos:Concept ;
+   skos:prefLabel "korrigieren"@de;
+.
+
+:I000111
+   a skos:Concept ;
+   skos:prefLabel "begründen"@de;
+.
+
+:I000112
+   a skos:Concept ;
+   skos:prefLabel "beglückwünschen lassen"@de;
+.
+
+:I000113
+   a skos:Concept ;
+   skos:prefLabel "willkommen heißen"@de;
+.
+
+:I000114
+   a skos:Concept ;
+   skos:prefLabel "absagen"@de;
+.
+
+:I000115
+   a skos:Concept ;
+   skos:prefLabel "wünschen lassen"@de;
+.
+
+:I000116
+   a skos:Concept ;
+   skos:prefLabel "vertonen"@de;
+.
+
+:I000117
+   a skos:Concept ;
+   skos:prefLabel "abholen"@de;
+.
+
+:I000118
+   a skos:Concept ;
+   skos:prefLabel "terminieren"@de;
+.
+
+:I000119
+   a skos:Concept ;
+   skos:prefLabel "verkörpern"@de;
+.
+
+:I000120
+   a skos:Concept ;
+   skos:prefLabel "drohen"@de;
+.
+
+:I000121
+   a skos:Concept ;
+   skos:prefLabel "beauftragen lassen"@de;
+.
+
+:I000122
+   a skos:Concept ;
+   skos:prefLabel "verhandeln lassen"@de;
+.
+
+:I000123
+   a skos:Concept ;
+   skos:prefLabel "vergleichen"@de;
+.
+
+:I000124
+   a skos:Concept ;
+   skos:prefLabel "sich entschuldigen lassen"@de;
+.
+
+:I000125
+   a skos:Concept ;
+   skos:prefLabel "zurückgeben lassen"@de;
+.
+
+:I000126
+   a skos:Concept ;
+   skos:prefLabel "identifizieren"@de;
+.
+
+:I000127
+   a skos:Concept ;
+   skos:prefLabel "distanzieren"@de;
+.
+
+:I000128
+   a skos:Concept ;
+   skos:prefLabel "erlauben"@de;
+.
+
+:I000129
+   a skos:Concept ;
+   skos:prefLabel "trösten"@de;
+.
+
+:I000130
+   a skos:Concept ;
+   skos:prefLabel "gebeten werden"@de;
+.
+
+:I000131
+   a skos:Concept ;
+   skos:prefLabel "malen"@de;
+.
+
+:I000132
+   a skos:Concept ;
+   skos:prefLabel "anbieten lassen"@de;
+.
+
+:I000133
+   a skos:Concept ;
+   skos:prefLabel "anregen lassen"@de;
+.
+
+:I000134
+   a skos:Concept ;
+   skos:prefLabel "mahnen lassen"@de;
+.
+
+:I000135
+   a skos:Concept ;
+   skos:prefLabel "korrigieren lassen"@de;
+.
+
+:I000136
+   a skos:Concept ;
+   skos:prefLabel "auffordern lassen"@de;
+.
+
+:I000137
+   a skos:Concept ;
+   skos:prefLabel "inszenieren"@de;
+.
+
+:I000138
+   a skos:Concept ;
+   skos:prefLabel "widmen"@de;
+.
+
+:I000139
+   a skos:Concept ;
+   skos:prefLabel "drucken lassen"@de;
+.
+
+:I000140
+   a skos:Concept ;
+   skos:prefLabel "verleumden"@de;
+.
+
+:I000141
+   a skos:Concept ;
+   skos:prefLabel "ablehnen lassen"@de;
+.
+
+:I000142
+   a skos:Concept ;
+   skos:prefLabel "ergänzen"@de;
+.
+
+:P000143
+   a skos:Concept ;
+   skos:prefLabel "Bewertung"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000144
+   a skos:Concept ;
+   skos:prefLabel "Textkritik"@de;
+.
+
+:P000145
+   a skos:Concept ;
+   skos:prefLabel "Publikation"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000146
+   a skos:Concept ;
+   skos:prefLabel "Rezension"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000147
+   a skos:Concept ;
+   skos:prefLabel "Rezensent"@de;
+.
+
+:P000148
+   a skos:Concept ;
+   skos:prefLabel "Manuskriptsendung"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000149
+   a skos:Concept ;
+   skos:prefLabel "Begegnung"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000150
+   a skos:Concept ;
+   skos:prefLabel "Gesundheit"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000151
+   a skos:Concept ;
+   skos:prefLabel "Literaturfund"@de;
+.
+
+:P000152
+   a skos:Concept ;
+   skos:prefLabel "Exzerpt"@de;
+.
+
+:P000153
+   a skos:Concept ;
+   skos:prefLabel "Übersetzung"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000154
+   a skos:Concept ;
+   skos:prefLabel "Nicht-Begegnung"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000155
+   a skos:Concept ;
+   skos:prefLabel "Bühneninszenierung"@de;
+.
+
+:P000156
+   a skos:Concept ;
+   skos:prefLabel "Liebe"@de;
+.
+
+:P000157
+   a skos:Concept ;
+   skos:prefLabel "Brief"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000158
+   a skos:Concept ;
+   skos:prefLabel "Literarische Partei"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000159
+   a skos:Concept ;
+   skos:prefLabel "Rückkehr"@de;
+.
+
+:P000160
+   a skos:Concept ;
+   skos:prefLabel "Einlagebrief"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000161
+   a skos:Concept ;
+   skos:prefLabel "Manuskriptabschluss"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000162
+   a skos:Concept ;
+   skos:prefLabel "Zeitplan"@de;
+.
+
+:P000163
+   a skos:Concept ;
+   skos:prefLabel "Aufschub"@de;
+.
+
+:P000164
+   a skos:Concept ;
+   skos:prefLabel "Erscheinen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000165
+   a skos:Concept ;
+   skos:prefLabel "Klage"@de;
+.
+
+:P000166
+   a skos:Concept ;
+   skos:prefLabel "Freundschaft"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000167
+   a skos:Concept ;
+   skos:prefLabel "Lektüre"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000168
+   a skos:Concept ;
+   skos:prefLabel "Kennenlernen"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000169
+   a skos:Concept ;
+   skos:prefLabel "Weinsendung"@de;
+.
+
+:P000170
+   a skos:Concept ;
+   skos:prefLabel "Auftrag"@de;
+.
+
+:P000171
+   a skos:Concept ;
+   skos:prefLabel "Vermittlerdienste"@de;
+.
+
+:P000172
+   a skos:Concept ;
+   skos:prefLabel "Verlagskontakt"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000173
+   a skos:Concept ;
+   skos:prefLabel "Vorlesung"@de;
+.
+
+:P000174
+   a skos:Concept ;
+   skos:prefLabel "Arbeitsbericht"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000175
+   a skos:Concept ;
+   skos:prefLabel "Angebot"@de;
+.
+
+:P000176
+   a skos:Concept ;
+   skos:prefLabel "Theaterbesuch"@de;
+.
+
+:P000177
+   a skos:Concept ;
+   skos:prefLabel "Schauspielkunst"@de;
+.
+
+:P000178
+   a skos:Concept ;
+   skos:prefLabel "Streitfall"@de;
+.
+
+:P000179
+   a skos:Concept ;
+   skos:prefLabel "Krankheitsbericht"@de;
+.
+
+:P000180
+   a skos:Concept ;
+   skos:prefLabel "Diskretion"@de;
+.
+
+:P000181
+   a skos:Concept ;
+   skos:prefLabel "Impulskontrolle"@de;
+.
+
+:P000182
+   a skos:Concept ;
+   skos:prefLabel "Korrespondenz"@de;
+.
+
+:P000183
+   a skos:Concept ;
+   skos:prefLabel "Werbemaßnahme"@de;
+.
+
+:P000184
+   a skos:Concept ;
+   skos:prefLabel "Nicht-Manuskriptsendung"@de;
+.
+
+:P000185
+   a skos:Concept ;
+   skos:prefLabel "Briefsendung"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000186
+   a skos:Concept ;
+   skos:prefLabel "Empfangsbestätigung"@de;
+.
+
+:P000187
+   a skos:Concept ;
+   skos:prefLabel "Genesung"@de;
+.
+
+:P000188
+   a skos:Concept ;
+   skos:prefLabel "Wohnungsvermittlung"@de;
+.
+
+:P000189
+   a skos:Concept ;
+   skos:prefLabel "Nicht-Publikation"@de;
+.
+
+:P000190
+   a skos:Concept ;
+   skos:prefLabel "Ankunft"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000191
+   a skos:Concept ;
+   skos:prefLabel "Eifersucht"@de;
+.
+
+:P000192
+   a skos:Concept ;
+   skos:prefLabel "Entscheidung"@de;
+.
+
+:P000193
+   a skos:Concept ;
+   skos:prefLabel "Buchsendung"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000194
+   a skos:Concept ;
+   skos:prefLabel "Kommunikationsstörung"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000195
+   a skos:Concept ;
+   skos:prefLabel "Reisekollektiv"@de;
+.
+
+:P000196
+   a skos:Concept ;
+   skos:prefLabel "Nicht-Beteiligung"@de;
+.
+
+:P000197
+   a skos:Concept ;
+   skos:prefLabel "Wohnkollektiv"@de;
+.
+
+:P000198
+   a skos:Concept ;
+   skos:prefLabel "Liebesaffäre"@de;
+.
+
+:P000199
+   a skos:Concept ;
+   skos:prefLabel "Konflikt"@de;
+.
+
+:P000200
+   a skos:Concept ;
+   skos:prefLabel "Reise"@de;
+.
+
+:P000201
+   a skos:Concept ;
+   skos:prefLabel "Kontakt"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000202
+   a skos:Concept ;
+   skos:prefLabel "Gedicht"@de;
+.
+
+:P000203
+   a skos:Concept ;
+   skos:prefLabel "Werkverzeichnis"@de;
+.
+
+:P000204
+   a skos:Concept ;
+   skos:prefLabel "Herausgeberschaft"@de;
+.
+
+:P000205
+   a skos:Concept ;
+   skos:prefLabel "Inhaltsverzeichnis"@de;
+.
+
+:P000206
+   a skos:Concept ;
+   skos:prefLabel "Buch"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000207
+   a skos:Concept ;
+   skos:prefLabel "Kritik"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000208
+   a skos:Concept ;
+   skos:prefLabel "Übersetzungspraxis"@de;
+.
+
+:P000209
+   a skos:Concept ;
+   skos:prefLabel "Überarbeitung"@de;
+.
+
+:P000210
+   a skos:Concept ;
+   skos:prefLabel "Druckfehler"@de;
+.
+
+:P000211
+   a skos:Concept ;
+   skos:prefLabel "Übersetzungskonkurrenz"@de;
+.
+
+:P000212
+   a skos:Concept ;
+   skos:prefLabel "Korrektur"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000213
+   a skos:Concept ;
+   skos:prefLabel "Literarische Produktion"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000214
+   a skos:Concept ;
+   skos:prefLabel "Verlagswechsel"@de;
+.
+
+:P000215
+   a skos:Concept ;
+   skos:prefLabel "Buchhandlung"@de;
+.
+
+:P000216
+   a skos:Concept ;
+   skos:prefLabel "Exposé"@de;
+.
+
+:P000217
+   a skos:Concept ;
+   skos:prefLabel "Verlagsvertrag"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000218
+   a skos:Concept ;
+   skos:prefLabel "Werkstattgespräch"@de;
+.
+
+:P000219
+   a skos:Concept ;
+   skos:prefLabel "Aufenthaltsort"@de;
+.
+
+:P000220
+   a skos:Concept ;
+   skos:prefLabel "Zeitverzug"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000221
+   a skos:Concept ;
+   skos:prefLabel "Werk"@de;
+.
+
+:P000222
+   a skos:Concept ;
+   skos:prefLabel "Empfehlung"@de;
+.
+
+:P000223
+   a skos:Concept ;
+   skos:prefLabel "Professur"@de;
+.
+
+:P000224
+   a skos:Concept ;
+   skos:prefLabel "Form"@de;
+.
+
+:P000225
+   a skos:Concept ;
+   skos:prefLabel "Schweigen"@de;
+.
+
+:P000226
+   a skos:Concept ;
+   skos:prefLabel "Geld"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000227
+   a skos:Concept ;
+   skos:prefLabel "Honorar"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000228
+   a skos:Concept ;
+   skos:prefLabel "Resonanz"@de;
+.
+
+:P000229
+   a skos:Concept ;
+   skos:prefLabel "Sendung"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000230
+   a skos:Concept ;
+   skos:prefLabel "Druck"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000231
+   a skos:Concept ;
+   skos:prefLabel "Briefstil"@de;
+.
+
+:P000232
+   a skos:Concept ;
+   skos:prefLabel "Mitarbeit"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000233
+   a skos:Concept ;
+   skos:prefLabel "Wertschätzung"@de;
+.
+
+:P000234
+   a skos:Concept ;
+   skos:prefLabel "Gerücht"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000235
+   a skos:Concept ;
+   skos:prefLabel "Literarische Konkurrenz"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000236
+   a skos:Concept ;
+   skos:prefLabel "Redaktion"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000237
+   a skos:Concept ;
+   skos:prefLabel "Typographie"@de;
+.
+
+:P000238
+   a skos:Concept ;
+   skos:prefLabel "Manuskript"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000239
+   a skos:Concept ;
+   skos:prefLabel "Nicht-Briefsendung"@de;
+.
+
+:P000240
+   a skos:Concept ;
+   skos:prefLabel "Lebensführung"@de;
+.
+
+:P000241
+   a skos:Concept ;
+   skos:prefLabel "Trennung"@de;
+.
+
+:P000242
+   a skos:Concept ;
+   skos:prefLabel "Einladung"@de;
+.
+
+:P000243
+   a skos:Concept ;
+   skos:prefLabel "Untätigkeit"@de;
+.
+
+:P000244
+   a skos:Concept ;
+   skos:prefLabel "Theateraufführung"@de;
+.
+
+:P000245
+   a skos:Concept ;
+   skos:prefLabel "Theaterpraxis"@de;
+.
+
+:P000246
+   a skos:Concept ;
+   skos:prefLabel "Hörsaal"@de;
+.
+
+:P000247
+   a skos:Concept ;
+   skos:prefLabel "Buchrückgabe"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000248
+   a skos:Concept ;
+   skos:prefLabel "Rezensionsexemplar"@de;
+.
+
+:P000249
+   a skos:Concept ;
+   skos:prefLabel "Versöhnung"@de;
+.
+
+:P000250
+   a skos:Concept ;
+   skos:prefLabel "Redaktionskollektiv"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000251
+   a skos:Concept ;
+   skos:prefLabel "Lebens- und Arbeitskollektiv"@de;
+.
+
+:P000252
+   a skos:Concept ;
+   skos:prefLabel "Briefrücksendung"@de;
+.
+
+:P000253
+   a skos:Concept ;
+   skos:prefLabel "Kollektive Autorschaft"@de;
+.
+
+:P000254
+   a skos:Concept ;
+   skos:prefLabel "Materialsammlung"@de;
+.
+
+:P000255
+   a skos:Concept ;
+   skos:prefLabel "Ehescheidung"@de;
+.
+
+:P000256
+   a skos:Concept ;
+   skos:prefLabel "Koffersendung"@de;
+.
+
+:P000257
+   a skos:Concept ;
+   skos:prefLabel "Hypochondrie"@de;
+.
+
+:P000258
+   a skos:Concept ;
+   skos:prefLabel "Autorschaftsattribution"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000259
+   a skos:Concept ;
+   skos:prefLabel "Stellungnahme"@de;
+.
+
+:P000260
+   a skos:Concept ;
+   skos:prefLabel "Geschenk"@de;
+.
+
+:P000261
+   a skos:Concept ;
+   skos:prefLabel "Kontaktabbruch"@de;
+.
+
+:P000262
+   a skos:Concept ;
+   skos:prefLabel "Anzeige"@de;
+.
+
+:P000263
+   a skos:Concept ;
+   skos:prefLabel "Rezeption"@de;
+.
+
+:P000264
+   a skos:Concept ;
+   skos:prefLabel "Schreibpraxis"@de;
+.
+
+:P000265
+   a skos:Concept ;
+   skos:prefLabel "Sprachunterricht"@de;
+.
+
+:P000266
+   a skos:Concept ;
+   skos:prefLabel "Antwortbrief"@de;
+.
+
+:P000267
+   a skos:Concept ;
+   skos:prefLabel "Wohnung"@de;
+.
+
+:P000268
+   a skos:Concept ;
+   skos:prefLabel "Ratschlag"@de;
+.
+
+:P000269
+   a skos:Concept ;
+   skos:prefLabel "Schulden"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000270
+   a skos:Concept ;
+   skos:prefLabel "Bitte"@de;
+.
+
+:P000271
+   a skos:Concept ;
+   skos:prefLabel "Einvernehmen"@de;
+.
+
+:P000272
+   a skos:Concept ;
+   skos:prefLabel "Reiseplan"@de;
+.
+
+:P000273
+   a skos:Concept ;
+   skos:prefLabel "Geldsendung"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000274
+   a skos:Concept ;
+   skos:prefLabel "Malunterricht"@de;
+.
+
+:P000275
+   a skos:Concept ;
+   skos:prefLabel "Todesfall"@de;
+.
+
+:P000276
+   a skos:Concept ;
+   skos:prefLabel "Nachdruck"@de;
+.
+
+:P000277
+   a skos:Concept ;
+   skos:prefLabel "Geldauslage"@de;
+.
+
+:P000278
+   a skos:Concept ;
+   skos:prefLabel "Publikationsprojekt"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000279
+   a skos:Concept ;
+   skos:prefLabel "Gemälde"@de;
+.
+
+:P000280
+   a skos:Concept ;
+   skos:prefLabel "Protektion"@de;
+.
+
+:P000281
+   a skos:Concept ;
+   skos:prefLabel "Unterkunft"@de;
+.
+
+:P000282
+   a skos:Concept ;
+   skos:prefLabel "Gesang"@de;
+.
+
+:P000283
+   a skos:Concept ;
+   skos:prefLabel "Werkplan"@de;
+.
+
+:P000284
+   a skos:Concept ;
+   skos:prefLabel "Geldmangel"@de;
+.
+
+:P000285
+   a skos:Concept ;
+   skos:prefLabel "Dichtkunst"@de;
+.
+
+:P000286
+   a skos:Concept ;
+   skos:prefLabel "Meinungsäußerung"@de;
+.
+
+:P000287
+   a skos:Concept ;
+   skos:prefLabel "Karriere"@de;
+.
+
+:P000288
+   a skos:Concept ;
+   skos:prefLabel "Reaktion"@de;
+.
+
+:P000289
+   a skos:Concept ;
+   skos:prefLabel "Distanz"@de;
+.
+
+:P000290
+   a skos:Concept ;
+   skos:prefLabel "Gelderstattung"@de;
+.
+
+:P000291
+   a skos:Concept ;
+   skos:prefLabel "Eheschließung"@de;
+.
+
+:P000292
+   a skos:Concept ;
+   skos:prefLabel "Skandal"@de;
+.
+
+:P000293
+   a skos:Concept ;
+   skos:prefLabel "Kollektive Lektüre"@de;
+.
+
+:P000294
+   a skos:Concept ;
+   skos:prefLabel "Konkurrenz"@de;
+.
+
+:P000295
+   a skos:Concept ;
+   skos:prefLabel "Urteil"@de;
+.
+
+:P000296
+   a skos:Concept ;
+   skos:prefLabel "Werkausgabe"@de;
+.
+
+:P000297
+   a skos:Concept ;
+   skos:prefLabel "Edition"@de;
+.
+
+:P000298
+   a skos:Concept ;
+   skos:prefLabel "Porträt"@de;
+.
+
+:P000299
+   a skos:Concept ;
+   skos:prefLabel "Abreise"@de;
+.
+
+:P000300
+   a skos:Concept ;
+   skos:prefLabel "Autorenexemplar"@de;
+.
+
+:P000301
+   a skos:Concept ;
+   skos:prefLabel "Paket"@de;
+.
+
+:P000302
+   a skos:Concept ;
+   skos:prefLabel "Bücherverkauf"@de;
+.
+
+:P000303
+   a skos:Concept ;
+   skos:prefLabel "Selbstkritik"@de;
+.
+
+:P000304
+   a skos:Concept ;
+   skos:prefLabel "Anonymität"@de;
+.
+
+:P000305
+   a skos:Concept ;
+   skos:prefLabel "Erfolg"@de;
+.
+
+:P000306
+   a skos:Concept ;
+   skos:prefLabel "Text"@de;
+.
+
+:P000307
+   a skos:Concept ;
+   skos:prefLabel "Ankündigung"@de;
+.
+
+:P000308
+   a skos:Concept ;
+   skos:prefLabel "Abschrift"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de; 
+.
+
+:P000309
+   a skos:Concept ;
+   skos:prefLabel "Rolle"@de;
+.
+
+:P000310
+   a skos:Concept ;
+   skos:prefLabel "Zusammenarbeit"@de;
+.
+
+:P000311
+   a skos:Concept ;
+   skos:prefLabel "Begleitung"@de;
+.
+
+:P000312
+   a skos:Concept ;
+   skos:prefLabel "Briefaushändigung"@de;
+.
+
+:P000313
+   a skos:Concept ;
+   skos:prefLabel "Zustimmung"@de;
+.
+
+:P000314
+   a skos:Concept ;
+   skos:prefLabel "Brieflektüre"@de;
+.
+
+:P000315
+   a skos:Concept ;
+   skos:prefLabel "Literarische Abrechnung"@de;
+.
+
+:P000316
+   a skos:Concept ;
+   skos:prefLabel "Kutsche"@de;
+.
+
+:P000317
+   a skos:Concept ;
+   skos:prefLabel "Billet"@de;
+.
+
+:P000318
+   a skos:Concept ;
+   skos:prefLabel "Quittung"@de;
+.
+
+:P000319
+   a skos:Concept ;
+   skos:prefLabel "Beilage"@de;
+.
+
+:P000320
+   a skos:Concept ;
+   skos:prefLabel "Gastfreundschaft"@de;
+.
+
+:P000321
+   a skos:Concept ;
+   skos:prefLabel "Anteilnahme"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000322
+   a skos:Concept ;
+   skos:prefLabel "Gerichtsurteil"@de;
+.
+
+:P000323
+   a skos:Concept ;
+   skos:prefLabel "Nachlass"@de;
+.
+
+:P000324
+   a skos:Concept ;
+   skos:prefLabel "Lehrer-Schüler-Beziehung"@de;
+.
+
+:P000325
+   a skos:Concept ;
+   skos:prefLabel "Literaturbeschaffung"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000326
+   a skos:Concept ;
+   skos:prefLabel "Briefumfang"@de;
+.
+
+:P000327
+   a skos:Concept ;
+   skos:prefLabel "Ausleihe"@de;
+.
+
+:P000328
+   a skos:Concept ;
+   skos:prefLabel "Loyalität"@de;
+.
+
+:P000329
+   a skos:Concept ;
+   skos:prefLabel "Adresse"@de;
+.
+
+:P000330
+   a skos:Concept ;
+   skos:prefLabel "Titel"@de;
+.
+
+:P000331
+   a skos:Concept ;
+   skos:prefLabel "Periodikum"@de;
+.
+
+:P000332
+   a skos:Concept ;
+   skos:prefLabel "Nachsicht"@de;
+.
+
+:P000333
+   a skos:Concept ;
+   skos:prefLabel "Ermutigung"@de;
+.
+
+:P000334
+   a skos:Concept ;
+   skos:prefLabel "Beschädigung"@de;
+.
+
+:P000335
+   a skos:Concept ;
+   skos:prefLabel "Ersetzung"@de;
+.
+
+:P000336
+   a skos:Concept ;
+   skos:prefLabel "Bücherkauf"@de;
+.
+
+:P000337
+   a skos:Concept ;
+   skos:prefLabel "Aushängebogen"@de;
+.
+
+:P000338
+   a skos:Concept ;
+   skos:prefLabel "Fortsetzung"@de;
+.
+
+:P000339
+   a skos:Concept ;
+   skos:prefLabel "Stilkritik"@de;
+.
+
+:P000340
+   a skos:Concept ;
+   skos:prefLabel "Gebühr"@de;
+.
+
+:P000341
+   a skos:Concept ;
+   skos:prefLabel "Übersetzungskritik"@de;
+.
+
+:P000342
+   a skos:Concept ;
+   skos:prefLabel "Unparteilichkeit"@de;
+.
+
+:P000343
+   a skos:Concept ;
+   skos:prefLabel "Rezensionswunsch"@de;
+.
+
+:P000344
+   a skos:Concept ;
+   skos:prefLabel "Theaterkritik"@de;
+.
+
+:P000345
+   a skos:Concept ;
+   skos:prefLabel "Titelliste"@de;
+.
+
+:P000346
+   a skos:Concept ;
+   skos:prefLabel "Entgegnung"@de;
+.
+
+:P000347
+   a skos:Concept ;
+   skos:prefLabel "Zuneigung"@de;
+.
+
+:P000348
+   a skos:Concept ;
+   skos:prefLabel "Nicht-Erscheinen"@de;
+.
+
+:P000349
+   a skos:Concept ;
+   skos:prefLabel "Bildmotiv"@de;
+.
+
+:P000350
+   a skos:Concept ;
+   skos:prefLabel "Selbstanzeige"@de;
+.
+
+:P000351
+   a skos:Concept ;
+   skos:prefLabel "Reisebericht"@de;
+.
+
+:P000352
+   a skos:Concept ;
+   skos:prefLabel "Kunsturteil"@de;
+.
+
+:P000353
+   a skos:Concept ;
+   skos:prefLabel "Bestellung"@de;
+.
+
+:P000354
+   a skos:Concept ;
+   skos:prefLabel "Teesendung"@de;
+.
+
+:P000355
+   a skos:Concept ;
+   skos:prefLabel "Pseudonym"@de;
+.
+
+:P000356
+   a skos:Concept ;
+   skos:prefLabel "Ausstellungskatalog"@de;
+.
+
+:P000357
+   a skos:Concept ;
+   skos:prefLabel "Rechtsstreit"@de;
+.
+
+:P000358
+   a skos:Concept ;
+   skos:prefLabel "Verlagsverhandlung"@de;
+.
+
+:P000359
+   a skos:Concept ;
+   skos:prefLabel "Kündigung"@de;
+.
+
+:P000360
+   a skos:Concept ;
+   skos:prefLabel "Zensur"@de;
+.
+
+:P000361
+   a skos:Concept ;
+   skos:prefLabel "Vereinbarung"@de;
+.
+
+:P000362
+   a skos:Concept ;
+   skos:prefLabel "Vertrag"@de;
+.
+
+:P000363
+   a skos:Concept ;
+   skos:prefLabel "Anweisung"@de;
+.
+
+:P000364
+   a skos:Concept ;
+   skos:prefLabel "Museum"@de;
+.
+
+:P000365
+   a skos:Concept ;
+   skos:prefLabel "Kollektive Textkritik"@de;
+.
+
+:P000366
+   a skos:Concept ;
+   skos:prefLabel "Diskussion"@de;
+.
+
+:P000367
+   a skos:Concept ;
+   skos:prefLabel "Öffentlichkeitsarbeit"@de;
+.
+
+:P000368
+   a skos:Concept ;
+   skos:prefLabel "Aufrichtigkeit"@de;
+.
+
+:P000369
+   a skos:Concept ;
+   skos:prefLabel "Büste"@de;
+.
+
+:P000370
+   a skos:Concept ;
+   skos:prefLabel "Preisaufgabe"@de;
+.
+
+:P000371
+   a skos:Concept ;
+   skos:prefLabel "Illustration"@de;
+.
+
+:P000372
+   a skos:Concept ;
+   skos:prefLabel "Redaktionsplan"@de;
+   skos:scopeNote "This term is part of the reduced list of the vocabulary"@de;
+.
+
+:P000373
+   a skos:Concept ;
+   skos:prefLabel "Pränumeration"@de;
+.
+
+:P000374
+   a skos:Concept ;
+   skos:prefLabel "Titelvignette"@de;
+.
+
+:P000375
+   a skos:Concept ;
+   skos:prefLabel "Nachlasspflege"@de;
+.
+
+:P000376
+   a skos:Concept ;
+   skos:prefLabel "Bearbeitung"@de;
+.
+
+:P000377
+   a skos:Concept ;
+   skos:prefLabel "Nachruf"@de;
+.
+
+:P000378
+   a skos:Concept ;
+   skos:prefLabel "Kommentar"@de;
+.
+
+:P000379
+   a skos:Concept ;
+   skos:prefLabel "Arbeitsplan"@de;
+.
+
+:P000380
+   a skos:Concept ;
+   skos:prefLabel "Informationsbeschaffung"@de;
+.
+
+:P000381
+   a skos:Concept ;
+   skos:prefLabel "Rücksendung"@de;
+.
+
+:P000382
+   a skos:Concept ;
+   skos:prefLabel "Verlobung"@de;
+.
+
+:P000383
+   a skos:Concept ;
+   skos:prefLabel "Misstrauen"@de;
+.
+
+:P000384
+   a skos:Concept ;
+   skos:prefLabel "Literaturkritik"@de;
+.
+
+:P000385
+   a skos:Concept ;
+   skos:prefLabel "Paketverlust"@de;
+.
+
+:P000386
+   a skos:Concept ;
+   skos:prefLabel "Erlaubnis"@de;
+.
+
+:P000387
+   a skos:Concept ;
+   skos:prefLabel "Werktitel"@de;
+.
+
+:P000388
+   a skos:Concept ;
+   skos:prefLabel "Grüße"@de;
+.
+
+:P000389
+   a skos:Concept ;
+   skos:prefLabel "Selbstrechtfertigung"@de;
+.
+
+:P000390
+   a skos:Concept ;
+   skos:prefLabel "Unschuld"@de;
+.
+
+:P000391
+   a skos:Concept ;
+   skos:prefLabel "Betrug"@de;
+.
+
+:P000392
+   a skos:Concept ;
+   skos:prefLabel "Vertrauen"@de;
+.
+
+:P000393
+   a skos:Concept ;
+   skos:prefLabel "Sendeanweisung"@de;
+.
+
+:P000394
+   a skos:Concept ;
+   skos:prefLabel "Charakteristik"@de;
+.
+
+:P000395
+   a skos:Concept ;
+   skos:prefLabel "Arbeitsweise"@de;
+.
+
+:P000396
+   a skos:Concept ;
+   skos:prefLabel "Deutung"@de;
+.
+
+:P000397
+   a skos:Concept ;
+   skos:prefLabel "Biographie"@de;
+.
+
+:P000398
+   a skos:Concept ;
+   skos:prefLabel "Meinungsänderung"@de;
+.
+
+:P000399
+   a skos:Concept ;
+   skos:prefLabel "Briefexzerpt"@de;
+.
+
+:P000400
+   a skos:Concept ;
+   skos:prefLabel "Rache"@de;
+.
+
+:P000401
+   a skos:Concept ;
+   skos:prefLabel "Briefverlust"@de;
+.
+
+:P000402
+   a skos:Concept ;
+   skos:prefLabel "Arbeitsplatz"@de;
+.
+
+:P000403
+   a skos:Concept ;
+   skos:prefLabel "Vollmacht"@de;
+.
+
+:P000404
+   a skos:Concept ;
+   skos:prefLabel "Mitleid"@de;
+.
+
+:P000405
+   a skos:Concept ;
+   skos:prefLabel "Freiexemplar"@de;
+.
+
+:P000406
+   a skos:Concept ;
+   skos:prefLabel "Schauspiel"@de;
+.
+
+:P000407
+   a skos:Concept ;
+   skos:prefLabel "Übersetzungspause"@de;
+.
+
+:P000408
+   a skos:Concept ;
+   skos:prefLabel "Vaterschaft"@de;
+.
+
+:P000409
+   a skos:Concept ;
+   skos:prefLabel "Versprechen"@de;
+.
+
+:P000410
+   a skos:Concept ;
+   skos:prefLabel "Quellenbestand"@de;
+.
+
+:P000411
+   a skos:Concept ;
+   skos:prefLabel "Improvisation"@de;
+.
+
+:P000412
+   a skos:Concept ;
+   skos:prefLabel "Überprüfung"@de;
+.
+
+:P000413
+   a skos:Concept ;
+   skos:prefLabel "Biersendung"@de;
+.
+
+:P000414
+   a skos:Concept ;
+   skos:prefLabel "Strümpfe"@de;
+.
+
+:P000415
+   a skos:Concept ;
+   skos:prefLabel "Hemd"@de;
+.
+
+:P000416
+   a skos:Concept ;
+   skos:prefLabel "Glück"@de;
+.
+
+:P000417
+   a skos:Concept ;
+   skos:prefLabel "Einverständnis"@de;
+.
+
+:P000418
+   a skos:Concept ;
+   skos:prefLabel "Handschrift"@de;
+.
+
+:P000419
+   a skos:Concept ;
+   skos:prefLabel "Meinungsunterschiede"@de;
+.
+
+:P000420
+   a skos:Concept ;
+   skos:prefLabel "Schreibfehler"@de;
+.
+
+:P000421
+   a skos:Concept ;
+   skos:prefLabel "Editionspraxis"@de;
+.
+
+:P000422
+   a skos:Concept ;
+   skos:prefLabel "Werkkollektiv"@de;
+.
+
+:P000423
+   a skos:Concept ;
+   skos:prefLabel "Mahnung"@de;
+.
+
+:P000424
+   a skos:Concept ;
+   skos:prefLabel "Korrespondenzkollektiv"@de;
+.
+
+:P000425
+   a skos:Concept ;
+   skos:prefLabel "Feier"@de;
+.
+
+:P000426
+   a skos:Concept ;
+   skos:prefLabel "Postalisches"@de;
+.
+
+:P000427
+   a skos:Concept ;
+   skos:prefLabel "Misserfolg"@de;
+.
+
+:P000428
+   a skos:Concept ;
+   skos:prefLabel "Warensendung"@de;
+.
+
+:P000429
+   a skos:Concept ;
+   skos:prefLabel "Lob"@de;
+.
+
+:P000430
+   a skos:Concept ;
+   skos:prefLabel "Nachtrag"@de;
+.
+
+:P000431
+   a skos:Concept ;
+   skos:prefLabel "Nicht-Sendung"@de;
+.
+
+:P000432
+   a skos:Concept ;
+   skos:prefLabel "Papier"@de;
+.
+
+:P000433
+   a skos:Concept ;
+   skos:prefLabel "Absatz"@de;
+.
+
+:P000434
+   a skos:Concept ;
+   skos:prefLabel "Studium"@de;
+.
+
+:P000435
+   a skos:Concept ;
+   skos:prefLabel "Skizze"@de;
+.
+
+:P000436
+   a skos:Concept ;
+   skos:prefLabel "Modell"@de;
+.
+
+:P000437
+   a skos:Concept ;
+   skos:prefLabel "Grabstätte"@de;
+.
+
+:P000438
+   a skos:Concept ;
+   skos:prefLabel "Urne"@de;
+.
+
+:P000439
+   a skos:Concept ;
+   skos:prefLabel "Denkmal"@de;
+.
+
+:P000440
+   a skos:Concept ;
+   skos:prefLabel "Akten"@de;
+.
+
+:P000441
+   a skos:Concept ;
+   skos:prefLabel "Briefvorlage"@de;
+.
+
+:P000442
+   a skos:Concept ;
+   skos:prefLabel "Künstlerisches Schaffen"@de;
+.
+
+:P000443
+   a skos:Concept ;
+   skos:prefLabel "Indiskretion"@de;
+.
+
+:P000444
+   a skos:Concept ;
+   skos:prefLabel "Karikatur"@de;
+.
+
+:P000445
+   a skos:Concept ;
+   skos:prefLabel "Verriss"@de;
+.
+
+:P000446
+   a skos:Concept ;
+   skos:prefLabel "Freikarte"@de;
+.
+
+:P000447
+   a skos:Concept ;
+   skos:prefLabel "Freilassung"@de;
+.
+
+:P000448
+   a skos:Concept ;
+   skos:prefLabel "Lehrplanung"@de;
+.
+
+:P000449
+   a skos:Concept ;
+   skos:prefLabel "Ring"@de;
+.
+
+:P000450
+   a skos:Concept ;
+   skos:prefLabel "Tassensendung"@de;
+.
+
+:P000451
+   a skos:Concept ;
+   skos:prefLabel "Ausschreibung"@de;
+.
+
+:P000452
+   a skos:Concept ;
+   skos:prefLabel "Familiengedächtnis"@de;
+.
+
+:P000453
+   a skos:Concept ;
+   skos:prefLabel "Abschied"@de;
+.
+
+:P000454
+   a skos:Concept ;
+   skos:prefLabel "Maße"@de;
+.
+
+:P000455
+   a skos:Concept ;
+   skos:prefLabel "Briefvernichtung"@de;
+.
+
+:P000456
+   a skos:Concept ;
+   skos:prefLabel "Glückwunsch"@de;
+.
+
+:P000457
+   a skos:Concept ;
+   skos:prefLabel "Briefsubstitution"@de;
+.
+
+:P000458
+   a skos:Concept ;
+   skos:prefLabel "Raummiete"@de;
+.
+
+:P000459
+   a skos:Concept ;
+   skos:prefLabel "Hochzeitsgedicht"@de;
+.
+
+:P000460
+   a skos:Concept ;
+   skos:prefLabel "Originaldrama"@de;
+.
+
+:P000461
+   a skos:Concept ;
+   skos:prefLabel "Stoff"@de;
+.
+
+:P000462
+   a skos:Concept ;
+   skos:prefLabel "Eröffnung"@de;
+.
+
+:P000463
+   a skos:Concept ;
+   skos:prefLabel "Kundenliste"@de;
+.
+
+:P000464
+   a skos:Concept ;
+   skos:prefLabel "Hinweis"@de;
+.
+
+:P000465
+   a skos:Concept ;
+   skos:prefLabel "Zahlungsanweisung"@de;
+.
+
+:P000466
+   a skos:Concept ;
+   skos:prefLabel "Erklärung"@de;
+.
+
+:P000467
+   a skos:Concept ;
+   skos:prefLabel "Neuausgabe"@de;
+.
+
+:P000468
+   a skos:Concept ;
+   skos:prefLabel "Theatergastspiel"@de;
+.
+
+:P000469
+   a skos:Concept ;
+   skos:prefLabel "Lieferung"@de;
+.
+
+:P000470
+   a skos:Concept ;
+   skos:prefLabel "Zeitung"@de;
+.
+
+:P000471
+   a skos:Concept ;
+   skos:prefLabel "Reservierung"@de;
+.
+
+:P000472
+   a skos:Concept ;
+   skos:prefLabel "Notenblatt"@de;
+.
+
+:P000473
+   a skos:Concept ;
+   skos:prefLabel "Briefdiktat"@de;
+.
+
+:P000474
+   a skos:Concept ;
+   skos:prefLabel "Druckprobe"@de;
+.
+
+:P000475
+   a skos:Concept ;
+   skos:prefLabel "Pelz"@de;
+.
+
+:P000476
+   a skos:Concept ;
+   skos:prefLabel "Taktik"@de;
+.
+
+:P000477
+   a skos:Concept ;
+   skos:prefLabel "Gegenstände"@de;
+.
+
+:P000478
+   a skos:Concept ;
+   skos:prefLabel "Anregung"@de;
+.
+
+:P000479
+   a skos:Concept ;
+   skos:prefLabel "Arbeitsproben"@de;
+.
+
+:P000480
+   a skos:Concept ;
+   skos:prefLabel "Buchbesitz"@de;
+.
+
+:P000481
+   a skos:Concept ;
+   skos:prefLabel "Wohnungseinrichtung"@de;
+.
+
+:P000482
+   a skos:Concept ;
+   skos:prefLabel "Verbreitung"@de;
+.
+
+:P000483
+   a skos:Concept ;
+   skos:prefLabel "Billett"@de;
+.
+
+:P000484
+   a skos:Concept ;
+   skos:prefLabel "Kollationierung"@de;
+.
+
+
+<illocution> a skos:Collection ;
+   skos:prefLabel "Illokution" ;
+   skos:member :I0001, :I0002, :I0003, :I0004, :I0005, :I0006, :I0007, :I0008, :I0009, :I00010, :I00011, :I00012, :I00013, :I00014, :I00015, :I00016, :I00017, :I00018, :I00019, :I00020, :I00021, :I00022, :I00023, :I00024, :I00025, :I00026, :I00027, :I00028, :I00029, :I00030, :I00031, :I00032, :I00033, :I00034, :I00035, :I00036, :I00037, :I00038, :I00039, :I00040, :I00041, :I00042, :I00043, :I00044, :I00045, :I00046, :I00047, :I00048, :I00049, :I00050, :I00051, :I00052, :I00053, :I00054, :I00055, :I00056, :I00057, :I00058, :I00059, :I00060, :I00061, :I00062, :I00063, :I00064, :I00065, :I00066, :I00067, :I00068, :I00069, :I00070, :I00071, :I00072, :I00073, :I00074, :I00075, :I00076, :I00077, :I00078, :I00079, :I00080, :I00081, :I00082, :I00083, :I00084, :I00085, :I00086, :I00087, :I00088, :I00089, :I00090, :I00091, :I00092, :I00093, :I00094, :I00095, :I00096, :I00097, :I00098, :I00099, :I000100, :I000101, :I000102, :I000103, :I000104, :I000105, :I000106, :I000107, :I000108, :I000109, :I000110, :I000111, :I000112, :I000113, :I000114, :I000115, :I000116, :I000117, :I000118, :I000119, :I000120, :I000121, :I000122, :I000123, :I000124, :I000125, :I000126, :I000127, :I000128, :I000129, :I000130, :I000131, :I000132, :I000133, :I000134, :I000135, :I000136, :I000137, :I000138, :I000139, :I000140, :I000141, :I000142 .
+
+<proposition> a skos:Collection ;
+   skos:prefLabel "Proposition" ;
+   skos:member :P000143, :P000144, :P000145, :P000146, :P000147, :P000148, :P000149, :P000150, :P000151, :P000152, :P000153, :P000154, :P000155, :P000156, :P000157, :P000158, :P000159, :P000160, :P000161, :P000162, :P000163, :P000164, :P000165, :P000166, :P000167, :P000168, :P000169, :P000170, :P000171, :P000172, :P000173, :P000174, :P000175, :P000176, :P000177, :P000178, :P000179, :P000180, :P000181, :P000182, :P000183, :P000184, :P000185, :P000186, :P000187, :P000188, :P000189, :P000190, :P000191, :P000192, :P000193, :P000194, :P000195, :P000196, :P000197, :P000198, :P000199, :P000200, :P000201, :P000202, :P000203, :P000204, :P000205, :P000206, :P000207, :P000208, :P000209, :P000210, :P000211, :P000212, :P000213, :P000214, :P000215, :P000216, :P000217, :P000218, :P000219, :P000220, :P000221, :P000222, :P000223, :P000224, :P000225, :P000226, :P000227, :P000228, :P000229, :P000230, :P000231, :P000232, :P000233, :P000234, :P000235, :P000236, :P000237, :P000238, :P000239, :P000240, :P000241, :P000242, :P000243, :P000244, :P000245, :P000246, :P000247, :P000248, :P000249, :P000250, :P000251, :P000252, :P000253, :P000254, :P000255, :P000256, :P000257, :P000258, :P000259, :P000260, :P000261, :P000262, :P000263, :P000264, :P000265, :P000266, :P000267, :P000268, :P000269, :P000270, :P000271, :P000272, :P000273, :P000274, :P000275, :P000276, :P000277, :P000278, :P000279, :P000280, :P000281, :P000282, :P000283, :P000284, :P000285, :P000286, :P000287, :P000288, :P000289, :P000290, :P000291, :P000292, :P000293, :P000294, :P000295, :P000296, :P000297, :P000298, :P000299, :P000300, :P000301, :P000302, :P000303, :P000304, :P000305, :P000306, :P000307, :P000308, :P000309, :P000310, :P000311, :P000312, :P000313, :P000314, :P000315, :P000316, :P000317, :P000318, :P000319, :P000320, :P000321, :P000322, :P000323, :P000324, :P000325, :P000326, :P000327, :P000328, :P000329, :P000330, :P000331, :P000332, :P000333, :P000334, :P000335, :P000336, :P000337, :P000338, :P000339, :P000340, :P000341, :P000342, :P000343, :P000344, :P000345, :P000346, :P000347, :P000348, :P000349, :P000350, :P000351, :P000352, :P000353, :P000354, :P000355, :P000356, :P000357, :P000358, :P000359, :P000360, :P000361, :P000362, :P000363, :P000364, :P000365, :P000366, :P000367, :P000368, :P000369, :P000370, :P000371, :P000372, :P000373, :P000374, :P000375, :P000376, :P000377, :P000378, :P000379, :P000380, :P000381, :P000382, :P000383, :P000384, :P000385, :P000386, :P000387, :P000388, :P000389, :P000390, :P000391, :P000392, :P000393, :P000394, :P000395, :P000396, :P000397, :P000398, :P000399, :P000400, :P000401, :P000402, :P000403, :P000404, :P000405, :P000406, :P000407, :P000408, :P000409, :P000410, :P000411, :P000412, :P000413, :P000414, :P000415, :P000416, :P000417, :P000418, :P000419, :P000420, :P000421, :P000422, :P000423, :P000424, :P000425, :P000426, :P000427, :P000428, :P000429, :P000430, :P000431, :P000432, :P000433, :P000434, :P000435, :P000436, :P000437, :P000438, :P000439, :P000440, :P000441, :P000442, :P000443, :P000444, :P000445, :P000446, :P000447, :P000448, :P000449, :P000450, :P000451, :P000452, :P000453, :P000454, :P000455, :P000456, :P000457, :P000458, :P000459, :P000460, :P000461, :P000462, :P000463, :P000464, :P000465, :P000466, :P000467, :P000468, :P000469, :P000470, :P000471, :P000472, :P000473, :P000474, :P000475, :P000476, :P000477, :P000478, :P000479, :P000480, :P000481, :P000482, :P000483, :P000484 .
