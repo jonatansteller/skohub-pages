@@ -22,7 +22,7 @@ cer:
 
 :I0001
    a skos:Concept ;
-   skos:prefLabel "überetzen"@de;
+   skos:prefLabel "übersetzen"@de;
 .
 
 :I0002
